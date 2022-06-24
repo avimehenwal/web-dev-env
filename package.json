@@ -1,0 +1,19 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "chrome-launcher": "^0.15.1",
+    "chrome-remote-interface": "^0.31.2",
+    "prettier": "^2.7.1",
+    "puppeteer": "^15.1.0"
+  }
+}
