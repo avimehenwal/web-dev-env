@@ -14,6 +14,14 @@
     "chrome-launcher": "^0.15.1",
     "chrome-remote-interface": "^0.31.2",
     "prettier": "^2.7.1",
-    "puppeteer": "^15.1.0"
+    "puppeteer": "^15.1.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/atob": "^2.1.2",
+    "@types/btoa": "^1.2.3",
+    "@types/prettier": "^2.6.3",
+    "@types/puppeteer": "^5.4.6",
+    "ts-node": "^10.8.1"
   }
 }
