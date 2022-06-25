@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/pupiteer-cdp.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vue/devtools": "^6.1.4",
     "atob": "^2.1.2",
     "btoa": "^1.2.1",
     "chrome-launcher": "^0.15.1",

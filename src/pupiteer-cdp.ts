@@ -103,13 +103,17 @@ async function add_header_to_all_requests(page) {
     headless: false,
     defaultViewport: null,
     devtools: true,
-    args: ["--window-size=1920,1170", "--window-position=0,0"],
+    ignoreDefaultArgs: ["--disable-extensions", "--enable-automation"],
+    args: [
+      `--start-maximized`,
+      // `--load-extension=./node_modules/.bin/vue-devtools`,
+    ],
   });
 
   // get the first page from the browser-tabs
   // const page = (await browser.pages())[0];
   const page = await browser.newPage();
-  await page.goto("https://github.com");
+  await page.goto("http://localhost:3000/");
   // works only in headless mode
   // await page.pdf({ path: "google.pdf" });
 
